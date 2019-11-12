@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#252525"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="注册"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               账号："
+            android:textColor="#686868"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/test_yi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textColor="#cccaca"
+            android:textColorHint="#252525"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               邮箱："
+            android:textColor="#686868"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/test_er"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="邮箱"
+            android:textColor="#cccaca"
+            android:textColorHint="#252525"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               密码："
+            android:textColor="#686868"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/test_san"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入密码"
+            android:textColor="#cccaca"
+            android:textColorHint="#252525"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       确认密码："
+            android:textColor="#686868"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/test_si"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入密码"
+            android:textColor="#cccaca"
+            android:textColorHint="#252525"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/sp_name"
+        android:background="#f15352"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="注册"
+
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+
+
+</LinearLayout>
